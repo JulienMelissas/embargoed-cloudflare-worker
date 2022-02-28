@@ -1,5 +1,5 @@
 # Embargoed Cloudflare Worker
-I use Cloudflare workers for everything I can, and wanted a way for folks to easily add the [Embargoed](https://github.com/rameerez/embargoed-list) response to their sites regardless of having to add a gem, making sure the response doesn't get cached, etc.
+I use Cloudflare Workers for everything I can, and wanted a way for folks to easily add the [Embargoed](https://github.com/rameerez/embargoed-list) response to their sites regardless of having to add a gem, making sure the response doesn't get cached, etc.
 
 Since Cloudflare Workers are just a small collection of code, I'll share the steps for set up. I'm going to assume that you have some experience with Workers, but if not, I suggest that you check out their documentation and tutorials [here](https://developers.cloudflare.com/workers/).
 
