@@ -108,5 +108,5 @@ The benefit to the Cloudflare Worker approach is Russian traffic won't ever hit 
 
 Remember, Cloudflare Workers are not fully free, so if you have have a high-traffic site, you might have to pay a small fee.
 
-### 4. To Test
+## 4. To Test
 If you want to test this functionality yourself since potentially you could totally break everything on your site if you didn't do this correctly, or if my code sucks, you should limit your route (test with `example.com/testing123` as the route in the Cloudflare worker first) AND change the country code to one you can test in a VPN. For example, I changed the country code to `MX` (for Mexico) and set my VPN (Nord VPN) to put me in Mexico. Make sure to test in an Incognito window, since I found that worked better for me.
